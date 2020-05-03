@@ -1,0 +1,45 @@
+﻿body {
+  	background-image: url('12.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+  	background-size: cover; <!-- 100% 100% -->
+	}
+r {
+  color: red;
+}
+
+#pos {
+	color:green;
+}
+#pow {
+	color:gray;
+	font-size: 18px;
+k {
+  color: blue;
+}
+/*Class*/
+.person{
+	color:green;
+}
+.animal{
+	color:blue;
+}
+
+
+
+/* Table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;  /*If you want the borders to collapse into one border, add the CSS border-collapse property*/
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; /*Cell padding specifies the space between the cell content and its borders.*/
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
